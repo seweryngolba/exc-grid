@@ -1,7 +1,6 @@
 .lm-container {
   width: 1117px;
   margin: 100px auto;
-  /* background: lightcoral; */
 }
 
 .offer-grid {
@@ -38,11 +37,33 @@
   z-index: 10;
 }
 
+.offer-photo-four {
+  z-index: 10;
+}
+
 .vector {
   position: absolute;
+  z-index: 0;
+}
+
+.one {
   top: 20px;
   right: 20px;
-  z-index: 0;
+}
+
+.two {
+  right: 10px;
+  bottom: 100px;
+}
+
+.three {
+  right: 25px;
+  top: 25px;
+}
+
+.four {
+  left: 140px;
+  top: 30px;
 }
 
 .offer-heading {
